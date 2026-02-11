@@ -1,0 +1,33 @@
+import java.util.*;
+class node {
+int val;
+node left,right;
+node(int val), 
+{
+val=x;
+left=right=null;
+}
+}
+class BinaryTree()
+{
+root=null;
+}
+void insert(intx)
+{
+node newnode=new node(x);
+if(root==null)
+{
+root=newnode;
+return;
+}
+Queue<node> q=new Linkedlist<>();
+q.add(root);
+while(!q.isEmpty()){
+node temp q.poll();
+if(temp.left==null)
+{
+temp.left=newnode;
+return;
+}
+else
+q.add(temp
